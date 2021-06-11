@@ -6,8 +6,8 @@ public class Main {
         Problem p = new Problem() {
             @Override
             public double fit(double x) {
-                return x*x*x*x + 3*x*x*x + 2*x + 6 ;
-                // x=19 , f(x)=441
+                return x*x*x*x + 7*x*x*x + 13*x*x + 2 ;
+                // x=0 , f(x)=2
             }
 
             @Override
@@ -15,7 +15,7 @@ public class Main {
                 return f0 > f1;
             }
         };
-        double x = sa.solve(p, 100, 0.99, -10, 10);
+        double x = sa.solve(p, 100, 0.99, -20, 20);
         System.out.println("최소가 되는 x값"+x);
         System.out.println("최소가 되는 y값"+p.fit(x));
         System.out.println("History");

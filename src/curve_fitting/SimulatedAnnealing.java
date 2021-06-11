@@ -49,6 +49,7 @@ class SimulatedAnnealing {
 
                         f0 = f1;
 
+
                     }
 
                 }

@@ -23,10 +23,7 @@ public class Main {
 
         };
 
-
         sa.solve(p,100,0.99, x, y);
-
-
         System.out.println(sa.a0 + " x + (" + sa.b0+" )");
 
     }

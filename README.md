@@ -199,18 +199,19 @@ public class Main {
         Problem p = new Problem() {
             @Override
             public double fit(double x) {
-                return -x*x + 38*x + 80;
-                // x=19 , f(x)=441
+                return x*x*x*x + 7*x*x*x + 13*x*x + 2 ;
+                // x=0 , f(x)=2
             }
 
             @Override
             public boolean isNeighborBetter(double f0, double f1) {
-                return f0 < f1;
+                return f0 > f1;
             }
         };
-        double x = sa.solve(p, 100, 0.99, 0, 0, 31);
-        System.out.println(x);
-        System.out.println(p.fit(x));
+        double x = sa.solve(p, 100, 0.99, -20, 20);
+        System.out.println("최소가 되는 x값"+x);
+        System.out.println("최소가 되는 y값"+p.fit(x));
+        System.out.println("History");
         System.out.println(sa.hist);
     }
 }
@@ -220,21 +221,23 @@ public class Main {
 
 ## 2.3) 출력결과
 
-![image-20210610233911603](https://user-images.githubusercontent.com/75067408/121672896-4a715a00-caeb-11eb-97ab-aa958ace792b.png)
+![image-20210611215003693](https://user-images.githubusercontent.com/75067408/121689208-4f400900-caff-11eb-9457-10db55eb5c68.png)
 
-![image-20210610235341787](https://user-images.githubusercontent.com/75067408/121672993-6117b100-caeb-11eb-9381-acab3d1b57b2.png)
-
-
-
-
-
-x^4+3 x^3+2x+6 의 그래프를 나타낸 것이다.
+x^4+7 x^3+13x^2+2 의 그래프를 나타낸 것이다.
 
 matlab을 사용하는데 익숙하지 않아 우선은 다른 사이트를 이용해서 개형을 구했다.
 
-x가 2.3412일 때 y가 -7.1365 가 되는데 이 점이 최소값이 된다.
 
-![image-20210611010939369](https://user-images.githubusercontent.com/75067408/121673014-6aa11900-caeb-11eb-8b11-a5698f8dd9e0.png)
+
+
+
+![image-20210611215128564](https://user-images.githubusercontent.com/75067408/121689174-46e7ce00-caff-11eb-87e1-0d4c217fb699.png)
+
+코드에 입력하여 돌려보면
+
+**x가 0일 때 y가 2 가 되는데 이 점이 최소값이 된다.**
+
+
 
 
 
