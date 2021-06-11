@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.Random;
 
 public class SimulatedAnnealing {
+
     private int niter;
     public ArrayList<Double> hist;
 
