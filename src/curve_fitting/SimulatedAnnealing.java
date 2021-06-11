@@ -17,18 +17,18 @@ class SimulatedAnnealing {
 
         Random r = new Random();
 
-        a0 = r.nextDouble()*500;
-        b0 = r.nextDouble()*50;
+        a0 = r.nextDouble()*100-50;
+        b0 = r.nextDouble()*100-50;
 
         double f0 = p.fit(x, y, a0, b0);
 
         for (int i=0; i<niter; i++) {
 
-            int kt = (int) t;
+            int kt = (int) t*50;
             for (int j = 0; j < kt; j++) {
 
-                double a1 = r.nextDouble()*500;
-                double b1 = r.nextDouble()*50;
+                double a1 = r.nextDouble()*100-50;
+                double b1 = r.nextDouble()*100-50;
 
                 double f1 = p.fit(x, y,a1, b1);
 

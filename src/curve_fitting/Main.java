@@ -14,7 +14,9 @@ public class Main {
                 double f = 0; //처음엔 0으로 초기화
 
                 for (int i = 0; i < x.length; i++) { // 길이만큼 루프를 돌고
-                    f = f + (a * x[i] + b -y[i]); // 그 고정된 값과 실제 차이 를 뺀 값을 더한다.
+                    double cost = (a * x[i] + b -y[i]);
+                    f += cost*cost; // 그 고정된 값과 실제 차이 를 뺀 값의 제곱을 더한다.
+                    //a와 가 등고선 모양으로 나와서 a와 b를 찾아감
                 }
                 return f;
             }
