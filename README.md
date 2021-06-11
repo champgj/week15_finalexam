@@ -58,7 +58,7 @@
 
 (출처 : naver)
 
-![image-20210609154923256](C:\Users\Choi\AppData\Roaming\Typora\typora-user-images\image-20210609154923256.png)
+![image-20210609154923256](https://user-images.githubusercontent.com/75067408/121672834-3a597a80-caeb-11eb-9828-5b633f4a871b.png)
 
 
 
@@ -220,9 +220,9 @@ public class Main {
 
 ## 2.3) 출력결과
 
-![image-20210610233911603](C:\Users\Choi\AppData\Roaming\Typora\typora-user-images\image-20210610233911603.png)
+![image-20210610233911603](https://user-images.githubusercontent.com/75067408/121672896-4a715a00-caeb-11eb-97ab-aa958ace792b.png)
 
-![image-20210610235341787](C:\Users\Choi\AppData\Roaming\Typora\typora-user-images\image-20210610235341787.png)
+![image-20210610235341787](https://user-images.githubusercontent.com/75067408/121672993-6117b100-caeb-11eb-9381-acab3d1b57b2.png)
 
 
 
@@ -234,11 +234,11 @@ matlab을 사용하는데 익숙하지 않아 우선은 다른 사이트를 이�
 
 x가 2.3412일 때 y가 -7.1365 가 되는데 이 점이 최소값이 된다.
 
-![image-20210611010939369](C:\Users\Choi\AppData\Roaming\Typora\typora-user-images\image-20210611010939369.png)
+![image-20210611010939369](https://user-images.githubusercontent.com/75067408/121673014-6aa11900-caeb-11eb-8b11-a5698f8dd9e0.png)
 
 
 
-![image-20210611001041373](C:\Users\Choi\AppData\Roaming\Typora\typora-user-images\image-20210611001041373.png)
+![image-20210611001041373](https://user-images.githubusercontent.com/75067408/121673048-78569e80-caeb-11eb-80f3-3dd4a2189e3d.png)
 
 
 
@@ -436,7 +436,7 @@ public class Main {
 | 6400           | 180              |
 | 7000           | 230              |
 
-![image-20210611185408981](C:\Users\Choi\AppData\Roaming\Typora\typora-user-images\image-20210611185408981.png)
+![image-20210611185408981](https://user-images.githubusercontent.com/75067408/121673075-80aed980-caeb-11eb-87ce-37f6458e0b56.png)
 
 
 
@@ -450,7 +450,7 @@ y = 0.03340596x-34.36291 이 나와야 정상적으로 작동함을 알 수 있�
 
 이제 값을 입력하여 출력해보면
 
-![image-20210611190003883](C:\Users\Choi\AppData\Roaming\Typora\typora-user-images\image-20210611190003883.png)
+![image-20210611190003883](https://user-images.githubusercontent.com/75067408/121673104-87d5e780-caeb-11eb-8873-5d21427ec94a.png)
 
 
 
